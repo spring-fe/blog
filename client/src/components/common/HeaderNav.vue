@@ -3,7 +3,7 @@
         <nav class="site-nav">
             <router-link :to="{path: '/articles', query: {page: 0}}" class="nav-title">
                 <img class="logo" src="../../assets/img/logo.png" alt="营火">
-                <span class="title">Ashen One</span>
+                <span class="title">Spring</span>
             </router-link>
             <ul class="site-nav-list">
                 <li>
