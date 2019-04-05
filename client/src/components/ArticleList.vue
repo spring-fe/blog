@@ -101,7 +101,6 @@
 
     .title {
         color: $title;
-        padding-bottom: 0.3em;
     }
 
     .title:hover {

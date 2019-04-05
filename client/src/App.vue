@@ -6,7 +6,7 @@
                 <router-view/>
             </transition>
         </div>
-        <footer id="app-footer">本博客由<a class="github" href="https://github.com/StudentWan/ashen-blog" target="_blank">Spring Blog系统</a>提供支持.
+        <footer id="app-footer">本博客由 Spring 提供支持.
         </footer>
     </div>
 </template>
@@ -49,13 +49,12 @@
     footer {
         font-weight: 200;
         width: 95%;
-        max-width: 850px;
         text-align: center;
         font-size: 1.4rem;
         margin: 0 auto;
-        padding: 2em 0;
+        padding: 1em 0;
         color: $special;
-        box-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+        box-shadow: 0 -1px 0 rgba(100, 100, 100, .9);
         .github {
             color: $base;
         }

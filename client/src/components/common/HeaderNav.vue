@@ -2,7 +2,7 @@
     <header class="nav-container">
         <nav class="site-nav">
             <router-link :to="{path: '/articles', query: {page: 0}}" class="nav-title">
-                <img class="logo" src="../../assets/img/logo.png" alt="营火">
+                <img class="logo" src="../../assets/img/logo.png" alt="spring">
                 <span class="title">Spring</span>
             </router-link>
             <ul class="site-nav-list">
@@ -16,7 +16,7 @@
                     <a name="tags" @click="jump($event)" :class="{'active': $route.path === '/tags'}">标签</a>
                 </li>
                 <li>
-                    <a name="lists" @click="jump($event)" :class="{'active': $route.path === '/lists'}">阅读列表</a>
+                    <!-- <a name="lists" @click="jump($event)" :class="{'active': $route.path === '/lists'}">阅读列表</a>-->
                 </li>
                 <li>
                     <a name="about" @click="jump($event)" :class="{'active': $route.path === '/about'}">关于我</a>
@@ -106,20 +106,23 @@ export default {
 }
 .site-nav {
     position: relative;
-    margin: 0 auto;
-    @include flex($justify: space-between);
     z-index: 2;
     padding: 0.5em 0;
     height: 4em;
-    width: 95%;
-    max-width: 850px;
     font-size: 1.6rem;
     background: $white;
+       a {
+           color: #4CAF50;
+       }
     .site-nav-list {
         @include flex;
+        justify-content: flex-end;
+        margin-right:60px;
     }
     .nav-title {
         @include flex;
+        float: left;
+        width: 200PX;
         .logo {
             width: 2.5em;
             height: 2.5em;
