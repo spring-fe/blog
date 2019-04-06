@@ -123,7 +123,7 @@ export default {
     .nav-title {
         @include flex;
         float: left;
-        width: 200PX;
+        width: 150px;
         .logo {
             width: 2.5em;
             height: 2.5em;
