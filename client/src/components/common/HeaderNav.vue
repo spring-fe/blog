@@ -41,9 +41,6 @@
                         <a name="tags" @click="jump($event)" :class="{'active': $route.path === '/tags'}">标签</a>
                     </li>
                     <li>
-                        <a name="lists" @click="jump($event)" :class="{'active': $route.path === '/lists'}">阅读列表</a>
-                    </li>
-                    <li>
                         <a name="about" @click="jump($event)" :class="{'active': $route.path === '/about'}">关于我</a>
                     </li>
                 </ul>
