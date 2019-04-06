@@ -145,9 +145,9 @@ export default {
         visibility: hidden;
         width: 1.5em;
         height: 1.5em;
-        border: 1px solid $word;
+        border: 1px solid #4CAF50;
         border-radius: 2px;
-        fill: $word;
+        fill: #4CAF50;
     }
 }
 
@@ -157,7 +157,7 @@ export default {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 235px;
+    width: 170px;
     font-size: 1.6rem;
     padding: 4.5em 1.5em 4em 1.5em;
     background: #f9f9f9;
@@ -177,6 +177,7 @@ export default {
         padding-bottom: 0.2em;
         margin: auto 0.3em;
         cursor: pointer;
+        color: #4CAF50;
         &:hover {
             @include chosen-item;
         }
