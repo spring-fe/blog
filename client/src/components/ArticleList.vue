@@ -3,9 +3,9 @@
         <div class="article-list">
             <article v-for="{id, title, publishTime, content} in articles" :key="id">
                 <header>
-                    <h2>
+                    <h3>
                         <router-link class="title" :to="'/articles/' + id">{{ title }}</router-link>
-                    </h2>
+                    </h3>
                     <h4 class="time">{{ publishTime }}</h4>
                 </header>
                 <p class="abstract" v-html="parseMarkdown(content)"></p>

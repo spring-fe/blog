@@ -1,6 +1,6 @@
 <template>
         <div class="about-container">
-            <h1>关于我</h1>
+            <h2>关于我</h2>
             <p v-html="parseMarkdown(about)"></p>
         </div>
 </template>

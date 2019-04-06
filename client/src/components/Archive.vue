@@ -1,7 +1,7 @@
 <template>
         <div class="archive-container">
             <div>
-                <h1>文章归档</h1>
+                <h2>文章归档</h2>
                 <section v-for="year in years">
                     <h4>{{ year }}</h4>
                     <ul class="list" v-for="intro in introductions[year]">

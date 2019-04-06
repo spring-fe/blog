@@ -1,6 +1,6 @@
 <template>
     <div class="tag-container">
-        <h1>标签</h1>
+        <h2>标签</h2>
         <nav>
             <ul class="tags">
                 <li v-for="tag in tags">
