@@ -98,6 +98,10 @@
         border-bottom: none;
         padding: 0;
     }
+    .time {
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
 
     .title {
         color: $title;
@@ -109,6 +113,7 @@
 
     .read-more {
         color: $base;
+        margin: 4px;
     }
 
     .pagination {

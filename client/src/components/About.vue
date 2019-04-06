@@ -32,6 +32,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+div > p {
+    margin-top: 12px;
+}
 h1 {
     padding-bottom: 1em;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);

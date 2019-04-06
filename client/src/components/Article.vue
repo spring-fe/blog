@@ -7,7 +7,7 @@
                 <span class="tag" v-for="tag in tags">{{ tag }}</span>
             </h4>
         </header>
-        <p v-html="parseMarkdown(content)"></p>
+        <p class="content" v-html="parseMarkdown(content)"></p>
     </article>
 </template>
 
@@ -50,8 +50,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.content {
+    margin-top: 14px;
+}
+h4 {
+    display: inline-block;
+    margin-right: 8px;
+}
+h1,h2,h3,h4,pre {
+    margin-top: 4px;
+}
+p /deep/ {
+    pre,p,h1,h2,h3,h4 {
+        margin-top: 4px;
+    }
+    pre {
+        padding: 4px;
+    }
+}
 .tag {
     color: $quote;
     margin-right: 1em;
+    font-weight: normal;
 }
 </style>

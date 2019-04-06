@@ -108,12 +108,13 @@ export default {
     position: relative;
     z-index: 2;
     padding: 0.5em 0;
-    height: 4em;
+    height: 3em;
+    line-height: 3em;
     font-size: 1.6rem;
     background: $white;
-       a {
-           color: #4CAF50;
-       }
+    a {
+       color: #4CAF50;
+    }
     .site-nav-list {
         @include flex;
         justify-content: flex-end;
@@ -138,7 +139,7 @@ export default {
     }
     .nav-menu {
         position: absolute;
-        right: 0.5em;
+        right: 1.5em;
         top: 50%;
         transform: translateY(-50%);
         visibility: hidden;
