@@ -57,15 +57,16 @@ h4 {
     display: inline-block;
     margin-right: 8px;
 }
-h1,h2,h3,h4,pre {
-    margin-top: 4px;
+h1,h2,h3,h4,pre,ol,ul {
+    margin-top: 8px;
 }
+
 p /deep/ {
-    pre,p,h1,h2,h3,h4 {
-        margin-top: 4px;
+    pre,p,h1,h2,h3,h4,ol,ul {
+        margin-top: 8px;
     }
     pre {
-        padding: 4px;
+        padding: 8px;
     }
 }
 .tag {

@@ -100,10 +100,12 @@
     }
     .article-list {
         margin-top: 16px;
+        article {
+            margin-top: 10px;
+        }
     }
     .time {
-        margin-top: 6px;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
     .title {

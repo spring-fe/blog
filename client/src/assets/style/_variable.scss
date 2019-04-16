@@ -6,11 +6,11 @@ $white: #fefdff;
 $black: #000;
 
 // 系统配色
-$title: #4CAF50;
-$word: #f0eaea;
+$title: black;
+$word: black;
 $base: #f18f01;
-$quote: #c1bfb5;
-$special: #c1bfb5;
+$quote: #999;
+$special: #999;
 
 @mixin chosen-item {
     border-bottom: 3px solid $base;
