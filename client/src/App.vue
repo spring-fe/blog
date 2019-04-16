@@ -6,7 +6,9 @@
                 <router-view/>
             </transition>
         </div>
-        <footer id="app-footer">本博客由 Spring 提供支持.
+        <footer id="app-footer">
+        本博客由 Spring 提供支持.<br>
+        mail:lishumin151@163.com
         </footer>
     </div>
 </template>
