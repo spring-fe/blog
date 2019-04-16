@@ -53,17 +53,16 @@ export default {
 .content {
     margin-top: 14px;
 }
+
 h4 {
     display: inline-block;
     margin-right: 8px;
 }
-h1,h2,h3,h4,pre,ol,ul {
-    margin-top: 8px;
-}
 
 p /deep/ {
     pre,p,h1,h2,h3,h4,ol,ul {
-        margin-top: 8px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
     pre {
         padding: 8px;
