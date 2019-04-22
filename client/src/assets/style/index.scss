@@ -19,6 +19,10 @@ body {
     margin: 0;
     padding: 0;
 }
+table tbody tr td {
+    padding: 8px 12px;
+    border: 1px solid grey;
+}
 
 a {
     text-decoration: none;
